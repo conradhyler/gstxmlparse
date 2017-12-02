@@ -1,8 +1,6 @@
 import xml.etree.ElementTree as ET
 import sys
 path = sys.argv[1]
-GST_file = open(path,'r')
-GST_stats = GST_file.read()
 tree = ET.parse(path)
 root = tree.getroot()
 new_path = sys.argv[2]
