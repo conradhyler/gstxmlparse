@@ -26,5 +26,5 @@ for elem in tree.iter(tag='DrawOnAerial'):
     doa = elem.text
     print('DrawOnAerial: ' + str(doa))
 new_test.write('\n' + path + ', ' + str(dsf)+ ', '+str(dst) + ', ' + str(lsf)+ ', '+str(lst) + ', ' + str(vis)+ ', '+str(doa))
-'GST_file.close()
+#GST_file.close()
 new_test.close()
